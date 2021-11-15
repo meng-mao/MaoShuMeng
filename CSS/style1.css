@@ -1,3 +1,195 @@
-h1{
-    color: greenyellow;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 150vh;
+    background-color: rgb(179, 255, 229);
+}
+header{
+    background-color: rgb(16, 99, 71);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+.logoofmeng{
+    width: 15%;
+    height: 35vh;
+    margin-top: -4%;
+    margin-left: -3%;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 155%;
+    font-size:x-large;
+}
+.menu ul li{
+    display: flex;
+    padding:8%;
+}
+.menu ul li a{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    padding: 5%;
+    color: white;
+    
+}
+.menu ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vh;
+    width: 100%;
+    padding: 0 20%;
+    height: 8vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+}
+.menu ul li .btn1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vh;
+    width: 100%;
+    padding: 0 20%;
+    height: 8vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+}
+.partofphoto{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+.partofphoto h1{
+    display: flex;
+    font-size: 3rem;
+    color: rgb(255, 0, 191);
+    margin-left: 15%;
+    margin-top: -30%;
+    font-family: serif;
+    z-index: 30;
+}
+.partofphoto h1 span{
+    margin-left: -30%;
+    margin-top: 10%;
+}
+.imgoffirsthome{
+    width: 60%;
+    border-radius: 45%;
+    margin: 5%;
+    z-index: 20;
+}
+.contactus{
+    background-color: rgb(16, 99, 71);
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    border-radius: 15vh;
+    margin-right: -40%;
+    margin-left: 20%;
+    margin-top: -15%;
+    z-index: 10;
+}
+.logoicons img{
+    width: 200%;
+}
+.logoicons{
+    margin-left: 31%;
+    display: flex;
+    flex-direction: row;
+}
+.logoicons ul{
+    display: flex;
+    list-style: none;
+}
+.logoicons ul li{
+    margin-left: 15%;
+}
+.logoicons ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.moredetail{
+    display: flex;
+    margin-left: 35%;
+    flex-direction: row;
+    margin-top: -2%;
+}
+.moredetail img{
+    width: 50%;
+}
+.moredetail .moredetail1{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+.moredetail1 li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.moredetail2{
+    margin-top: 1.5%;
+}
+.moredetail2 li{
+    margin-top: 4%;
+    list-style: none;
+}
+.moredetail2 li a{
+    text-decoration: none;
+    color: white;
+    margin-left: -10%;
+}
+.partoftext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.partabove{
+    width: 50%;
+    height: 20vh;
+    font-family: serif;
+}
+.partone{
+    font-size: 2rem;
+    margin-left: -75%;
+    margin-bottom: -27%;
+}
+.parttwo{
+    font-size: 4rem;
+    color: rgb(255, 0, 191);
+}
+.parttwo span{
+    margin-left: -47%;
+}
+.partunder{
+    width: 140%;
+    height: 20vh;
+    margin-left: -50%;
+    margin-top: 5%;
+    font-size: 1.3rem;
+    font-size: x-large;
+}
+.partunder span{
+    margin-left: 25%;
+}
+@media(max-width:550px){
+    .logoofmeng{
+        
+    }
 }
