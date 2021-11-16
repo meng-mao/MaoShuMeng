@@ -498,26 +498,66 @@ iframe{
     }
                       /*    part of resume */
     .container1{
-        height: 550vh;
+        height: 520vh;
     }
     .content1{
         display: flex;
         flex-direction: column;
     }
     .partleft{
-        margin-bottom: -72.8%;
+        margin-bottom: -80%;
         margin-left: 15%;
+        margin-top: 10%;
     }
     .partright{
         width: 80%;
         margin-left: 10%;
-        height: 550vh;
+        height: 500vh;
+        margin-top: 20%;
     }
     .box1{
         height: 60vh;
     }
     .footerpart{
-        margin-left: -50%;
-        margin-top: 200%;
+        margin-top: 400vh;
+        position: absolute;
+        margin-left: -5%;
+        width: 80%;
+    }
+                /* part of hobbies */
+    .container2{
+        background-color: rgb(179, 255, 229);
+        height: 600vh;
+    }
+    .card1{
+        margin-top: 50%;
+    }
+    .photocircle{
+        margin-left: 20%;
+    }
+    .photocircle img{
+        width: 150%;
+        height: 30vh;
+        margin-top: -150%;
+    }
+    .thetext{
+        width: 100vh;
+        margin-left: -1%;
+    }
+    .card1text{
+        font-size: large;
+    }
+              /* part of hometown */
+    .content3 img{
+        width: 50%;
+        height: 30vh;
+    }
+    .content3 p{
+        font-size: 1.3rem;
+        margin: 5%;
+    }
+    .content3 iframe{
+        width: 50%;
+        height: 50vh;
     }
 }
