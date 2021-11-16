@@ -132,7 +132,7 @@ header{
 .moredetail img{
     width: 50%;
 }
-.moredetail .moredetail1{
+.moredetail1{
     display: flex;
     list-style: none;
     flex-direction: column;
@@ -188,8 +188,336 @@ header{
 .partunder span{
     margin-left: 25%;
 }
+
+
+
+                              /* Part of resume */
+.container1{
+    height: 370vh;
+    background-color: rgb(179, 255, 229);
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    height: 350vh;
+}
+.partleft{
+    width: 40%;
+    margin: 3%;
+    height: 50vh;
+    background-color: rgb(16, 99, 71);
+    border-radius: 3vh;
+    padding: 3%;
+}
+.titlepart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+}
+.titleresume{
+    font-size: 2.5rem;
+    font-family: serif;
+    color: white;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.bodypart .circle{
+    background-color: white;
+    width: 3.5vh;
+    height: 3.5vh;
+    border-radius: 10vh;
+    margin-top: 60%;
+}
+.bodypart ul li ,.circle{
+    list-style: none;
+    margin-top: 8%;
+}
+.bodypart{
+    display: flex;
+    flex-direction: row;
+}
+.bodypart ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.footerpart a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.footerpart button {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 60%;
+    height: 8vh;
+    border-radius: 5vh;
+}
+.partright{
+    background-color: rgb(16, 99, 71);
+    width: 45%;
+    height: 320vh;
+    border-radius: 3vh;
+    margin-top: 3%;
+}
+.box1{
+    width: 90%;
+    border-radius: 2vh;
+    background-color: white;
+    text-align: center;
+    height: 40vh;
+    margin: auto;
+    margin-top: 5%;
+}
+.box1 h1{
+    font-family: serif;
+}
+.box1text{
+    margin: 5%;
+    font-size: larger;
+}
+
+               /* part of hobbies */
+.container2{
+    height: 400vh;
+    background-color: rgb(179, 255, 229);
+    
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.photocircle{
+    display: flex;
+    width: 30%;
+    position: absolute;
+    margin-left: -1.5%;
+}
+.photocircle img{
+    border-radius: 50%;
+    width: 100%;
+    height: 35vh;
+    margin-left: 35%;
+    border: 10px solid rgb(255, 0, 170);
+}
+.thetext{
+    width: 60%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5vh;
+    height: 40vh;
+    background-color: rgb(190, 159, 164);
+}
+.thetext h1{
+    display: flex;
+    font-family: serif;
+    justify-content: center;
+}
+.card1text{
+    margin: 0 5%;
+    font-size: 1.5rem;
+    display: flex;
+}
+                      /* part of hometown */
+.container3{
+    background-color: rgb(179, 255, 229);
+    height: 600vh;
+}
+.content3 h1{
+    text-align: center;
+    font-family: serif;
+    border: 2px solid;
+    width: 50%;
+    height: 3vh;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5%;
+    border-radius: 5vh;
+    background-color: rgb(148, 78, 90);
+}
+.content3 p{
+    font-size: 1.8rem;
+    padding: 5%;
+}
+.content3 img{
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    margin-left: 25%;
+    border-radius: 30%;
+}
+iframe{
+    margin-left: 25%;
+    margin-top: 5%;
+}
 @media(max-width:550px){
-    .logoofmeng{
+    .container{
+        height: 185vh;
+    }
+    header{
+        height: 45vh;
+        display: flex;
         
+    }
+    .logoofmeng{
+        display: flex;
+        width: 50%;
+        margin-top: -15%;
+        margin-left: 28%;
+    }
+    .menu{
+        display: flex;
+        margin-left: -85%;
+        margin-top: 5%;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu ul li{
+        display: flex;
+    }
+    .menu ul li a{
+        font-size: large;
+        color: black;
+    }
+    .menu ul li .btn1{
+        background-color: rgb(255, 255, 255);
+        border-radius: 1vh;
+        width: 100%;
+        padding: 0 20%;
+        height: 5vh;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul li a:hover{
+        height: 5vh;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactus{
+        width: 80vh;
+        height:15vh;
+        margin-left: -10%;
+        margin-top: 50%;
+        border-radius: 0 60vh 0 0;
+    }
+    .imgoffirsthome{
+        margin-left: 25%;
+        margin-top: 50%;
+        width: 60%;
+        height: 50vh;
+        border-radius: 100%;
+    }
+    .partofphoto h1{
+        width: 100%;
+    }
+    .partofphoto h1 span{
+        width: 100%;
+    }
+    .partoftext{
+        margin-top: -170%;
+        margin-left: 30%;
+    }
+    .partone{
+        margin-top: 10%;
+    }
+    .parttwo{
+        margin-left: 60%;
+        margin-top: -50%;
+    }
+    .partunder{
+        margin-top: 180%;
+        width: 180%;
+        font-size: 1rem;
+        margin-bottom: -50%;
+    }
+    .logoicons img {
+        width: 40%;
+    }
+    .logoicons{
+        margin-left: 15%;
+        display: flex;
+        flex-direction: row;
+    }
+    .logoicons ul{
+        display: flex;
+        list-style: none;
+        margin-left: -5%;
+    }
+    .logoicons ul li{
+        margin-left: -10%;
+        margin-top: -5%;
+    }
+    .logoicons ul li a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
+    .moredetail{
+        display: flex;
+        margin-left: 35%;
+        flex-direction: row;
+        margin-top: -2%;
+    }
+    .moredetail img{
+        width: 50%;
+    }
+    .moredetail1{
+        display: flex;
+        list-style: none;
+        margin-top: 1%;
+        margin-left: -45%;
+        flex-direction: column;
+    }
+    .moredetail1 li a{
+        width: 5vh;
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
+    .moredetail2{
+        margin-top: 1.5%;
+    }
+    .moredetail2 li{
+        margin-top: -1%;
+        margin-left: -10%;
+        list-style: none;
+    }
+    .moredetail2 li a{
+        text-decoration: none;
+        color: white;
+        font-size: x-small;
+    }
+                      /*    part of resume */
+    .container1{
+        height: 550vh;
+    }
+    .content1{
+        display: flex;
+        flex-direction: column;
+    }
+    .partleft{
+        margin-bottom: -72.8%;
+        margin-left: 15%;
+    }
+    .partright{
+        width: 80%;
+        margin-left: 10%;
+        height: 550vh;
+    }
+    .box1{
+        height: 60vh;
+    }
+    .footerpart{
+        margin-left: -50%;
+        margin-top: 200%;
     }
 }
