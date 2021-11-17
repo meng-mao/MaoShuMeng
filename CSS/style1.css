@@ -284,11 +284,15 @@ header{
     background-color: rgb(179, 255, 229);
     
 }
-.card1{
+.card1,.card2,.card3,.card4,.card5,.card6,.card7{
     display: flex;
     flex-direction: row;
     margin: 5%;
 }
+.card6 .photocircle img{
+    width: 60%;
+}
+
 .photocircle{
     display: flex;
     width: 30%;
@@ -529,16 +533,46 @@ iframe{
         background-color: rgb(179, 255, 229);
         height: 600vh;
     }
-    .card1{
+    .card1,.card2,.card3,.card4,.card5,.card6,.card7{
         margin-top: 50%;
     }
     .photocircle{
         margin-left: 20%;
     }
-    .photocircle img{
+    .card1 .photocircle img{
         width: 150%;
         height: 30vh;
         margin-top: -150%;
+    }
+    .card2 .photocircle img{
+        width: 150%;
+        height: 30vh;
+        margin-top: -150%;
+    }
+    .card3 .photocircle {
+        width: 68%;
+        margin-top: -50%;
+        margin-left: -2.5%;
+    }
+    .card4 .photocircle {
+        width: 70%;
+        margin-top: -50%;
+        margin-left: -2.5%;
+    }
+    .card5 .photocircle {
+        width: 70%;
+        margin-top: -50%;
+        margin-left: -2.5%;
+    }
+    .card6 .photocircle {
+        width: 70%;
+        margin-top: -50%;
+        margin-left: -2.5%;
+    }
+    .card7 .photocircle{
+        width: 70%;
+        margin-top: -50%;
+        margin-left: -2.5%;
     }
     .thetext{
         width: 100vh;
@@ -560,4 +594,7 @@ iframe{
         width: 50%;
         height: 50vh;
     }
+}
+@media(max-width:980px){
+    
 }
